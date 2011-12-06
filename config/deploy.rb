@@ -14,7 +14,7 @@ set :keep_releases, 3
 #############################################################
 
 default_run_options[:pty] = true
-set :repository, "git@github.com:internetchris/valier.git"
+set :repository, "git@github.com:internetchris/city-website-example.git"
 set :scm, "git"
 
 #############################################################
