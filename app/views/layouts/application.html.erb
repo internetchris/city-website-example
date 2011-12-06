@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Town of Valier - Montana</title>
+  <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW" > 
+  <%= stylesheet_link_tag 'reset', 'grid', 'style' %>
+  
+  <!--[if lt IE 9]>
+    <script type="text/javascript" src="http://info.template-help.com/files/ie6_warning/ie6_script_other.js"></script>
+  	<script type="text/javascript" src="/javascripts/html5.js"></script>
+  <![endif]-->
+  
+  <%= javascript_include_tag :defaults, 'jquery-1.4.2', 'cufon-yui.js', 'cufon-replace', 'RomanSerif_500.font', 'jquery.nivo.slider.pack', 'script'   %>
+  <%= csrf_meta_tag %>
+</head>
+<body id="page1">
+<div class="body1">
+		<div class="main">
+			<!--header -->
+			<header>
+				<div class="box1">
+					<div class="wrapper">
+						<h1><a href="index.html" id="logo">phone</a></h1>
+						<div id="twitter"><a href="#"></a></div>
+						<a href="#" class="link">Our Blog </a>
+					</div>
+				</div>
+				<div class="wrapper">
+					<nav>
+						<ul id="menu">
+							<li><a href="#">Home</a></li>
+							<li><a href="#">about</a></li>
+							<li><a href="#">government</a></li>
+							<li><a href="#">directory</a></li>
+							<li class="bg_none"><a href="#">Contact</a></li>
+						</ul>
+					</nav>
+					<ul id="icons">
+						<li><a href="#"><img src="images/icon1.jpg" alt=""></a></li>
+						<li><a href="#"><img src="images/icon2.jpg" alt=""></a></li>
+					</ul>
+				</div>
+			</header>
+			<!--header end-->
+			<!--content -->
+			<section id="content">
+			<%= yield %>
+			</section>
+			<!--content end-->
+			<!--footer -->
+			<footer>
+				<div class="box1">
+					<div class="container_24">
+						<div class="wrapper">
+							<div class="grid_24">
+							<ul id="footer_menu">
+								<li><a href="#">Town of Valier</a></li>
+								<li><a href="#">Town Council</a></li>
+								<li><a href="#">Our Staff </a></li>
+								<li><a href="#">Recreation</a></li>
+								<li class="bg_none"><a href="#">Contact us</a></li>
+							</ul>
+							town of valier &copy; 2011 <br>
+							<!-- {%FOOTER_LINK} -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+			<!--footer end-->
+		</div>
+</div>
+<script type="text/javascript"> Cufon.now(); </script>
+</body>
+</html>

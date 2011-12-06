@@ -1,0 +1,182 @@
+
+/* Getting the new tags to behave */
+article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video{ display: block; }
+mark, rp, rt, ruby, summary, time{ display: inline }
+
+/* Left & Right alignment */
+
+.left { float:left;}
+.right { float:right;}
+.wrapper {width:100%; overflow:hidden;}
+
+/* Global properties ======================================================== */
+
+body{ background: url(../images/bg.jpg) top center repeat; border:0; font:13px Arial, Helvetica, sans-serif; color:#98947b; line-height:20px;}
+
+.css3{border-radius: 8px; -moz-border-radius: 8px; -webkit-border-radius: 8px; box-shadow: 0 0 4px rgba(0, 0, 0, .4); -moz-box-shadow: 0 0 4px rgba(0, 0, 0, .4); -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, .4); behavior: url(js/PIE.htc); position: relative;}
+
+/* Global Structure ============================================================= */
+
+.main {	margin: 0 auto;	width:1032px; }
+.body1{ background:url(../images/bg_top.jpg) top center repeat-x; padding-top:30px}
+
+
+/* ============================= main layout ====================== */
+
+a{ color:#98947b; text-decoration: underline; outline:none}
+a:hover{ text-decoration: none}
+h1{ float:left; padding:0 0 0 42px;}
+h2{ font-size:36px; color:#aaa696; text-transform:uppercase; line-height:1.2em; padding:5px 0 20px 0}
+h2 span{ display:block; margin-top:-8px;}
+p{ padding-bottom:20px;}
+
+/* ============================= header ====================== */
+header{}
+
+header .box1{ border-top:6px solid #f2c522; padding-bottom:12px;}
+
+#logo{ display:block; background:url(../images/logo.jpg) no-repeat; width:218px; height:78px; text-indent:-9999px}
+#twitter{ padding:19px 23px 0 0; float:right}
+#twitter a{ display:block; background:url(../images/top_img.jpg) no-repeat; width:47px; height:54px;}
+
+.link{ font-size:20px; text-transform:uppercase; color:#d2ccb6; line-height:1.2em; margin:31px 39px 0 0; padding-left:14px; float:right; background:url(../images/marker_top.gif) 0 10px no-repeat; text-decoration:none;}
+.link:hover{ color:#f2c522}
+
+
+#icons{ float:right; padding:19px 6px 0 0;}
+#icons li{ float:left; padding-right:4px;}
+
+#menu { float:left; padding:22px 0 19px 42px;}
+#menu li { float:left; padding-right:25px; background:url(../images/menu_line.gif) right 0 no-repeat; margin-right:27px;}
+#menu li a{ display:block; font-size:24px; line-height:30px; color:#fff; text-transform:uppercase; text-decoration:none;}
+#menu li a:hover{ color:#f2c522}
+#menu .bg_none{ background:none;}
+
+
+.box1{ background:#fff;box-shadow: 0 0 5px rgba(0, 0, 0, .3); -moz-box-shadow: 0 0 5px rgba(0, 0, 0, .3); -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .3); behavior: url(js/PIE.htc); position: relative; padding-bottom:42px;}
+
+#slider{ padding:0 30px 16px 34px; position:relative}
+
+#text{ position:absolute; left:530px;  top:187px; z-index:99}
+
+/* The Nivo Slider styles */
+#slider_nivo{ height:479px; overflow:hidden; width:100% !important}
+.nivoSlider {position:relative;}
+.nivoSlider img {position:absolute;	top:0px;left:0px;}
+/* If an image is wrapped in a link */
+.nivoSlider a.nivo-imageLink {position:absolute;top:0px;left:0px;width:100%;height:100%;border:0;padding:0;	margin:0;z-index:60;display:none;}
+/* The slices in the Slider */
+.nivo-slice {display:block;	position:absolute;z-index:50;height:100%;}
+
+/* Control nav styles (e.g. 1,2,3...) */
+.nivo-controlNav{ position: absolute;z-index:99; right:24px; top:42px}
+.nivo-controlNav a {position:relative;z-index:99;cursor:pointer; text-indent:-5000px; display:block; width:11px; height:11px; margin-left:3px; background:url(../images/buttons.png) no-repeat; float:left;}
+.nivo-controlNav a.active { background:url(../images/buttons_active.png) no-repeat}
+
+
+/* ============================= content ====================== */
+#content .box1{ padding-top:13px;}
+
+#content{ width:100%; overflow:hidden; padding-bottom:22px;}
+
+.pad_left1{ padding-left:30px;}
+.pad_left2{ padding-left:70px;}
+.pad_right1{ padding-right:30px;}
+.marg_bot1{ margin-bottom:45px;}
+.pad_bot1{ padding-bottom:15px;}
+.pad_bot2{ padding-bottom:7px;}
+.marg_right1{ margin-right:46px;}
+.marg_top1{  margin-top:5px;}
+
+.line1{ background:url(../images/line_ver1.gif) 320px repeat-y}
+.line2{ background:url(../images/line_ver1.gif) 640px repeat-y}
+.line3{ background:url(../images/line_ver2.gif) 266px repeat-y}
+
+.color1{ color:#f2c522}
+
+.link1{ color:#8a8273; font-weight:bold}
+.link2{ color:#f2c522; font-weight:bold; text-decoration:none}
+.link2:hover{ text-decoration:underline}
+
+.button{ display:inline-block; color:#fff; line-height:30px; background:#f2c522; padding:0 15px; font-weight:bold; text-decoration:none}
+.button:hover{ background:#050505;}
+
+.font1{ font-size:22px; color:#a8a393; line-height:27px; margin-top:-4px; padding-bottom:0}
+.font2{ color:#988e68; font-size:12px; line-height:18px; padding-bottom:9px;}
+
+.list1{ margin-top:-7px;}
+.list1 li{ line-height:24px; font-size:12px;}
+.list1 li a{ padding-left:10px; background:url(../images/marker_1.gif) 0 5px no-repeat;}
+
+.list2 li{ line-height:20px;}
+.list2 li a{ display: inline-block; padding-left:23px; background:url(../images/marker_2.gif) 0 2px no-repeat; text-decoration:none}
+.list2 li a:hover{ text-decoration:underline}
+
+.box2 .list2 li{ line-height:24px; }
+.box2 .list2 li a{ font-weight:bold; background:url(../images/marker_3.gif) 0 3px no-repeat}
+
+.box2{ background:#f1f1de; padding:0 60px 28px 36px}
+.box2 h2{ padding:26px 0 14px 0; color:#928d7b; border-bottom:1px solid #cdcdbc; margin-bottom:21px;}
+
+.cols{ width:232px; float:left;}
+
+.quot{  padding-top:7px;background:url(../images/quot.gif) 200px 5px  no-repeat; font-style:italic}
+
+/*---gallery1 begin ---*/
+.carousel-box .inner1{ position:relative; padding-left:19px; }
+.gallery1{ width:100% !important;}
+.gallery1 li{ position:relative; float:left; width:232px; padding-right:70px; background:url(../images/line_ver2.gif) 267px 0 repeat-y}
+
+.next{ position:absolute; top:36px; right:-27px; background:url(../images/marker_right.jpg) no-repeat; display:block; width:29px; height:40px;}
+.prev{ position:absolute; top:36px; left:-27px; background:url(../images/marker_left.jpg) no-repeat; display:block; width:29px; height:40px;}
+.next:hover{ background:url(../images/marker_right_active.jpg) no-repeat}
+.prev:hover{ background:url(../images/marker_left_active.jpg) no-repeat}
+
+.box3{ background:none; padding:15px 14px; margin-top:5px; margin-bottom:25px;}
+.box3 p{ padding-bottom:10px;}
+.box3:hover{ background:#f1f2de}
+
+
+#page1 .grid_3{ padding-right:10px;}
+#page2 .marg_bot1{ margin-bottom:61px;}
+#page2 .box2{ padding-right:38px;}
+#page3 .marg_right1{ margin-right:20px;}
+#page3 #content .box1{ padding-bottom:5px;}
+#page4 .marg_right1{ margin-right:20px;}
+#page4  .grid_15 .list2{ float:left; width:380px;}
+#page4  .pad_bot1{ padding-bottom:13px}
+#page4  .marg_bot1{ margin-bottom:31px;}
+#page4 .box2{ margin-top:73px; padding-right:38px; margin-bottom:11px;}
+
+#page5 figure{ margin-top:15px; margin-right:23px;}
+#page5 .cols{ width:175px; padding-right:45px;}
+#page5  .marg_bot1{ margin-bottom:62px;}
+#page5 .box2{ padding-right:38px;}
+
+#page6 .pad_bot1{ padding-bottom:11px;}
+#page6 #content .box1{ padding-bottom:37px;}
+
+/* ============================= footer ====================== */
+
+footer { padding-bottom:40px; font-size:12px; color:#8a8273; text-transform:uppercase; font-weight:bold;}
+footer .box1{ padding:24px 0 20px 0;}
+footer a{ color:#8a8273;}
+
+#footer_menu{ float:right; padding:1px 0 0 0}
+#footer_menu li{ float:left; padding-right:22px; background:url(../images/marker_footer.gif) right 7px no-repeat; margin-right:18px;}
+#footer_menu li a{ display:block; font-size:14px; color:#969179; text-decoration:none; text-transform:none; font-weight:normal}
+#footer_menu li a:hover{ color:#8a8273; text-decoration:underline}
+#footer_menu .bg_none{ background:none; padding-right:0; margin-right:0}
+
+/* ============================= forms ============================= */
+
+#ContactForm { width:100%; overflow:hidden; padding-top:1px;}
+#ContactForm .wrapper{ min-height:62px;}
+#ContactForm .textarea_box{ min-height:187px; width:100%; overflow:hidden;}
+#ContactForm a{ margin-left:25px; float:right; margin-top:-2px;}
+#ContactForm .input {width:367px; height:15px; background:#fff; padding:15px 14px; margin-bottom:5px;color:#988e68; font:12px Arial, Helvetica, sans-serif;}
+#ContactForm textarea { overflow: auto; margin:0; width:440px; height:140px; background:#fff; padding:15px 14px; margin-bottom:5px;color:#988e68; font:12px Arial, Helvetica, sans-serif;}
+
+
+.col_1{ width:395px; float:left;}
+.col_2{ width:468px; float:left; padding-left:13px;}
